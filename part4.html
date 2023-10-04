@@ -1,0 +1,146 @@
+<!--
+   creates buttons: 
+      1. stretch
+      2. 3D click 
+      3. Margin and padding together 
+      4. pagination
+
+-->
+<!-- 1 -->
+<style>
+    .stretch{
+        background-color: green;
+        
+        border :none;
+        font-size : 18px;
+        color:rgb(255,255,255);
+        padding: 8px;
+        margin: 15px;
+        margin-right: 20px;
+        cursor: pointer; 
+        transition:1s;        
+    }
+
+    .stretch:hover{
+        padding: 16px;
+    }
+
+    .d_click{
+        background-color: green;
+        
+        color: white;
+        border: none;
+        font-size: 18px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+
+        margin: 15px;
+        cursor: pointer;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .d_click:active {
+        margin-top: 3px;
+        margin-left: 3px;
+        box-shadow: none;
+    }
+
+
+
+    .back-button {
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    vertical-align: middle;
+  }
+
+  .search-result {
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 18px;
+    display: inline-block;
+  }
+
+  .next-button {
+    margin-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    vertical-align: middle;
+  }
+
+  .marginandpadding {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: padding 0.15s,
+      margin 0.15s;
+  }
+
+  .marginandpadding:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+</style>
+
+<!-- 1 -->
+<button class = "stretch">
+    Stretch
+</button>
+
+<!-- 2 -->
+<!-- important note
+margin-top: 3px; margin-left: 3px;: Adds a slight margin on the top and left sides to create a visual "click" effect by shifting the button's position 3 pixels to the right and down.
+box-shadow: none;: Removes the box shadow when the button is clicked, giving the appearance of the shadow disappearing momentarily.
+-->
+<button class="d_click">
+    Shadow
+</button>
+
+<p>
+
+</p>
+
+<!-- 3.1 -->
+<button class = "marginandpadding">
+    one 
+</button>
+
+<!-- 3.2 -->
+<button class = "marginandpadding">
+    two
+</button>
+
+<p>
+    
+</p>
+<!-- pagination -->
+<button class = "back-button">
+    Back 
+</button>
+
+<a class="search-result" href="https://google.com">1</a>
+<a class="search-result" href="https://google.com">2</a>
+<a class="search-result" href="https://google.com">3</a>
+<a class="search-result" href="https://google.com">4</a>
+<a class="search-result" href="https://google.com">5</a>
+
+
+<button class = "next-button">
+    Next
+</button>
