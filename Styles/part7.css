@@ -1,0 +1,17 @@
+.cat1 {
+    border-radius: 30px;
+    object-position: left;
+  }
+  
+  .car2 {
+    object-position: center;
+  }
+  
+  .cat3 {
+    border-radius: 500px;
+    object-position: right;
+  }
+  
+  .searchBar{
+    font-style: italic;
+  }

@@ -1,0 +1,24 @@
+/**
+8.a
+.text_box1{
+    display:block;
+    margin-bottom: 10px;
+}
+.text_box2{
+    display: inline-block;
+}
+**/
+
+/**
+8.b
+.p{
+    width:300px;
+    font-size: 25px;
+    display: inline-table;
+    margin-right: 30px;
+}
+*/
+
+.image1{
+border-radius: 20px;
+}

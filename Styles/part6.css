@@ -1,0 +1,13 @@
+.p1{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.classSpan{
+    text-decoration: underline;
+}
+
+.classSpan:hover{
+    color:aqua;
+}
