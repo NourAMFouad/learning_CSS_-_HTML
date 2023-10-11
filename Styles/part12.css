@@ -1,0 +1,62 @@
+.all-divs{
+    width: 50%;
+    height: 50%;
+
+    border-color: black;
+    border-radius: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    border-top: 20px;
+    display:flex;
+    flex-direction: column;
+
+ 
+}
+.first-flexbox{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+}
+
+.image-first-flexbox{
+width:70px;
+height: 60px;
+
+border-radius: 70%;
+}
+
+.profile_details{
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+.superPragraph{
+    font-weight: bold;
+
+}
+
+.super__paragraph{
+color: rgb(128,128, 128);
+}
+
+.bodyParagraph{
+    font-family: Arial;
+}
+
+.second-flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    display: flex;
+
+}
+
+.youtube-box{
+    margin-left: 10px;
+
+}
+
+.paragraph-second-flexbox{
+    line-height: 20px;
+}
